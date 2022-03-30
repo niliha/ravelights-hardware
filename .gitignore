@@ -24,3 +24,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Gerber / drill files
+*.gbr
+*.drl
+
+# Plots directory
+plots/
+
+# Backups
+esp32shield-backups/
