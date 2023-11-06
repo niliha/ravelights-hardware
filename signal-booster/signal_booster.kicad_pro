@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -166,8 +172,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -394,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32shield.kicad_pro",
+    "filename": "signal_booster.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -441,204 +454,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/3V3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/CLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/EN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G12"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G13"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G14"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G15"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G16"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G17"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G18"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G19"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G21"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G22"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G23"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G25"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G26"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G27"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G32"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G33"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G34"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G35"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/G5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RXD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SD0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SD1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SD2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SD3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SP"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TXD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J5-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R6-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R7-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R8-Pad2)"
-      },
-      {
         "netclass": "Supply",
-        "pattern": "+5V"
+        "pattern": "VCC"
       },
       {
         "netclass": "Supply",
@@ -651,7 +468,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "signal_booster.dsn",
       "step": "",
       "vrml": ""
     },
