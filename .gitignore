@@ -31,6 +31,8 @@ fp-info-cache
 
 # Plots directory
 plots/
+plots.zip
+
 
 # Backups
 esp32shield-backups/
