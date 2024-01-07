@@ -546,6 +546,14 @@
       {
         "netclass": "Power",
         "pattern": "/5V_OUT_REG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/LED_G26_AN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/LED_G27_AN"
       }
     ]
   },
