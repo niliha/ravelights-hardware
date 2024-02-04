@@ -3433,7 +3433,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 243.84 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02003bf2-023a-49f8-8f32-508d64f69ebf)
-    (property "Reference" "#PWR023" (at 243.84 97.79 0)
+    (property "Reference" "#PWR012" (at 243.84 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 243.84 96.52 0)
@@ -3449,7 +3449,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3458,7 +3458,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_1") (at 231.14 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02ae3f4a-13a4-43ed-a9dc-72b87964ceb3)
-    (property "Reference" "#PWR020" (at 231.14 90.17 0)
+    (property "Reference" "#PWR08" (at 231.14 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_1" (at 231.14 81.28 0)
@@ -3474,7 +3474,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3483,7 +3483,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 71.12 325.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 045f9764-58cc-49ac-8740-2e3335a136bf)
-    (property "Reference" "#FLG01" (at 71.12 327.025 0)
+    (property "Reference" "#FLG05" (at 71.12 327.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 71.12 330.2 0)
@@ -3499,7 +3499,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -3508,13 +3508,13 @@
   (symbol (lib_id "Device:C") (at 124.46 340.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05a1c01d-eeb1-46b2-a715-114c129308ed)
-    (property "Reference" "C7" (at 132.08 340.36 90)
+    (property "Reference" "C15" (at 132.08 340.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 128.905 343.535 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.4252 344.17 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 125.4252 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 340.36 0)
@@ -3525,7 +3525,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C7") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3534,7 +3534,7 @@
   (symbol (lib_id "Driver_FET:FL5150MX") (at 266.7 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b8756ae-d663-4e7e-b6f1-9d90dea0792a)
-    (property "Reference" "U6" (at 268.8941 184.15 0)
+    (property "Reference" "U4" (at 268.8941 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FL5150MX" (at 268.8941 186.69 0)
@@ -3559,7 +3559,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -3568,7 +3568,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 255.27 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b88c686-4dcb-4adb-bf67-3f78d5c40984)
-    (property "Reference" "#PWR037" (at 255.27 60.96 0)
+    (property "Reference" "#PWR04" (at 255.27 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 255.27 59.69 0)
@@ -3584,7 +3584,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3593,13 +3593,13 @@
   (symbol (lib_id "Device:C") (at 342.9 194.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c7209de-afb7-4017-aff8-84431dc2c7b2)
-    (property "Reference" "C11" (at 342.9 186.69 90)
+    (property "Reference" "C10" (at 342.9 186.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "22nF" (at 342.9 190.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 346.71 193.3448 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 346.71 193.3448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 342.9 194.31 0)
@@ -3610,7 +3610,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3619,13 +3619,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 104.14 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cbc85fa-8fc8-4636-9218-125173165d89)
-    (property "Reference" "J6" (at 101.6 179.07 0)
+    (property "Reference" "J3" (at 101.6 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 101.6 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 104.14 179.07 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 104.14 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 179.07 0)
@@ -3636,7 +3636,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3645,13 +3645,13 @@
   (symbol (lib_id "Device:R") (at 120.65 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13b50bf0-68aa-4653-9fd9-880caa180796)
-    (property "Reference" "R4" (at 120.65 78.74 90)
+    (property "Reference" "R9" (at 120.65 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330kR" (at 120.65 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 86.868 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 86.868 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 85.09 0)
@@ -3662,7 +3662,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3671,13 +3671,13 @@
   (symbol (lib_id "Device:C") (at 285.75 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 192b3524-43fe-466f-9c24-9c354bf0623c)
-    (property "Reference" "C4" (at 293.37 101.6 90)
+    (property "Reference" "C6" (at 293.37 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 290.195 104.775 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 286.7152 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 286.7152 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 285.75 101.6 0)
@@ -3688,7 +3688,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3697,13 +3697,13 @@
   (symbol (lib_id "Device:R") (at 311.15 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b853b2f-08ca-45bb-ae77-1e9324ec556d)
-    (property "Reference" "R26" (at 311.15 180.34 90)
+    (property "Reference" "R14" (at 311.15 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 311.15 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 188.468 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 188.468 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 186.69 0)
@@ -3714,7 +3714,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R26") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3723,13 +3723,13 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 52.07 374.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e5b52cb-a1f9-4687-96c7-5a7323f36841)
-    (property "Reference" "JP3" (at 48.26 374.65 0)
+    (property "Reference" "JP6" (at 48.26 374.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 48.26 374.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 374.65 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" (at 52.07 374.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 374.65 0)
@@ -3741,7 +3741,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "JP3") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -3750,13 +3750,13 @@
   (symbol (lib_id "Device:R") (at 311.15 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20d1ba70-aeac-4580-9bdc-73127b4bc9fa)
-    (property "Reference" "R10" (at 311.15 71.12 90)
+    (property "Reference" "R8" (at 311.15 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 311.15 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 79.248 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 79.248 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 77.47 0)
@@ -3767,7 +3767,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3776,13 +3776,13 @@
   (symbol (lib_id "Device:R") (at 245.11 191.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 218e5931-b124-4b61-ae72-d18d3bea5ff0)
-    (property "Reference" "R25" (at 245.11 185.42 90)
+    (property "Reference" "R16" (at 245.11 185.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2MR" (at 245.11 187.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 245.11 193.548 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 245.11 193.548 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 191.77 0)
@@ -3793,7 +3793,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R25") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3808,7 +3808,7 @@
     (property "Value" "IRF840" (at 163.83 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 162.56 57.15 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 162.56 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 59.69 0)
@@ -3829,7 +3829,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 243.84 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 252e5434-4bfa-4abc-89ce-b3f00762ad86)
-    (property "Reference" "#PWR040" (at 243.84 222.25 0)
+    (property "Reference" "#PWR026" (at 243.84 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 243.84 222.25 0)
@@ -3845,7 +3845,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3854,13 +3854,13 @@
   (symbol (lib_id "Device:C") (at 95.25 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26d76ac5-16e7-4a16-9a5f-eb8a1e873835)
-    (property "Reference" "C2" (at 102.87 101.6 90)
+    (property "Reference" "C5" (at 102.87 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 99.695 104.775 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 96.2152 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 96.2152 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 101.6 0)
@@ -3871,7 +3871,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3880,13 +3880,13 @@
   (symbol (lib_id "Device:R") (at 120.65 209.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 275f19f8-d928-4471-9d97-d595ae35a4ba)
-    (property "Reference" "R23" (at 120.65 203.2 90)
+    (property "Reference" "R21" (at 120.65 203.2 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330kR" (at 120.65 207.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 211.328 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 211.328 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 209.55 0)
@@ -3897,7 +3897,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R23") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3906,13 +3906,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 294.64 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2821ec69-ff97-4e9e-970e-fe51d354bc7c)
-    (property "Reference" "J7" (at 292.1 179.07 0)
+    (property "Reference" "J4" (at 292.1 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 292.1 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 294.64 179.07 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 294.64 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 294.64 179.07 0)
@@ -3923,7 +3923,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "J7") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3932,7 +3932,7 @@
   (symbol (lib_id "Driver_FET:FL5150MX") (at 76.2 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 288d4ea2-e27c-472e-ac15-136ee673d950)
-    (property "Reference" "U5" (at 78.3941 184.15 0)
+    (property "Reference" "U3" (at 78.3941 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FL5150MX" (at 78.3941 186.69 0)
@@ -3957,7 +3957,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3966,7 +3966,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 165.1 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a06261c-84ec-4749-ac29-bc087b7ac589)
-    (property "Reference" "#PWR04" (at 165.1 78.74 0)
+    (property "Reference" "#PWR05" (at 165.1 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 172.72 71.12 0)
@@ -3982,7 +3982,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3991,7 +3991,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_1") (at 76.2 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a58e925-8d43-4abb-9a06-3916f9c84b6d)
-    (property "Reference" "#PWR09" (at 76.2 45.72 0)
+    (property "Reference" "#PWR01" (at 76.2 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_1" (at 76.2 36.83 0)
@@ -4007,7 +4007,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4016,7 +4016,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_4") (at 266.7 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b361faa-1916-45b9-8695-a31fb447ac29)
-    (property "Reference" "#PWR054" (at 266.7 170.18 0)
+    (property "Reference" "#PWR016" (at 266.7 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_4" (at 266.7 161.29 0)
@@ -4032,7 +4032,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4041,7 +4041,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 64.77 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c99046c-f2c1-4812-917a-76b06d837998)
-    (property "Reference" "#PWR048" (at 64.77 185.42 0)
+    (property "Reference" "#PWR017" (at 64.77 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 64.77 185.42 0)
@@ -4057,7 +4057,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4072,7 +4072,7 @@
     (property "Value" "1N4007" (at 134.62 95.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 133.35 97.79 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 133.35 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 97.79 0)
@@ -4098,13 +4098,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 347.98 80.01 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e2a63bf-4a7d-4b42-bc69-e8897eb86f59)
-    (property "Reference" "Q6" (at 354.33 81.28 0)
+    (property "Reference" "Q4" (at 354.33 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 354.33 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 353.06 82.55 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 353.06 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 80.01 0)
@@ -4116,7 +4116,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q6") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -4125,13 +4125,13 @@
   (symbol (lib_id "Device:R") (at 120.65 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e3c7e29-c0ad-4f50-92c9-7cea59d81bb1)
-    (property "Reference" "R2" (at 114.3 68.58 90)
+    (property "Reference" "R5" (at 114.3 68.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1kR" (at 120.65 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 71.628 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 71.628 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 69.85 0)
@@ -4142,7 +4142,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4151,7 +4151,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 76.2 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ec8e122-b981-4dcb-b87a-4c43a510b740)
-    (property "Reference" "#PWR035" (at 76.2 220.98 0)
+    (property "Reference" "#PWR023" (at 76.2 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 76.2 220.98 0)
@@ -4167,7 +4167,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4176,13 +4176,13 @@
   (symbol (lib_id "Device:R") (at 311.15 201.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 301c28c0-d8a3-433a-b5bc-1191d4246831)
-    (property "Reference" "R28" (at 311.15 195.58 90)
+    (property "Reference" "R20" (at 311.15 195.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 311.15 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 203.708 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 203.708 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 201.93 0)
@@ -4193,7 +4193,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R28") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4202,7 +4202,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 95.25 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 346bc996-9a63-4fd1-9c1f-e423b45a2fdd)
-    (property "Reference" "#PWR032" (at 95.25 238.76 0)
+    (property "Reference" "#PWR027" (at 95.25 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 95.25 238.76 0)
@@ -4218,7 +4218,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4227,13 +4227,13 @@
   (symbol (lib_id "Device:C") (at 255.27 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34a58391-be39-416f-9df2-94ff7041f80f)
-    (property "Reference" "C16" (at 262.89 49.53 90)
+    (property "Reference" "C2" (at 262.89 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 259.715 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 256.2352 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 256.2352 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 49.53 0)
@@ -4244,7 +4244,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C16") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4253,13 +4253,13 @@
   (symbol (lib_id "Device:C") (at 124.46 375.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36724457-3d8a-4140-8e24-d6125a9c8ecb)
-    (property "Reference" "C13" (at 132.08 375.92 90)
+    (property "Reference" "C17" (at 132.08 375.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 128.905 379.095 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.4252 379.73 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 125.4252 379.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 375.92 0)
@@ -4270,7 +4270,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C13") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -4279,13 +4279,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 294.64 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3871637a-a8af-4ca1-ba2b-8530e51bf62d)
-    (property "Reference" "J4" (at 292.1 54.61 0)
+    (property "Reference" "J2" (at 292.1 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 292.1 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 294.64 54.61 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 294.64 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 294.64 54.61 0)
@@ -4296,7 +4296,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -4305,13 +4305,13 @@
   (symbol (lib_id "Device:R") (at 120.65 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b9e3f15-4200-4be2-939d-b3315ed90da6)
-    (property "Reference" "R3" (at 120.65 71.12 90)
+    (property "Reference" "R7" (at 120.65 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 120.65 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 79.248 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 79.248 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 77.47 0)
@@ -4322,7 +4322,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4331,13 +4331,13 @@
   (symbol (lib_id "Device:R") (at 311.15 209.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dc08950-899c-4de0-818f-f73421ef3e9a)
-    (property "Reference" "R29" (at 311.15 203.2 90)
+    (property "Reference" "R22" (at 311.15 203.2 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330kR" (at 311.15 207.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 211.328 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 211.328 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 209.55 0)
@@ -4348,7 +4348,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R29") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4357,7 +4357,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 255.27 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e0904fa-0bdc-44b9-b32c-7f8f9cfe4e35)
-    (property "Reference" "#PWR053" (at 255.27 185.42 0)
+    (property "Reference" "#PWR018" (at 255.27 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 255.27 185.42 0)
@@ -4373,7 +4373,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4382,13 +4382,13 @@
   (symbol (lib_id "Device:R") (at 54.61 191.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f55c876-0095-4528-b04a-4904acea58e9)
-    (property "Reference" "R19" (at 54.61 185.42 90)
+    (property "Reference" "R15" (at 54.61 185.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2MR" (at 54.61 187.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 54.61 193.548 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 54.61 193.548 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 191.77 0)
@@ -4399,7 +4399,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4408,13 +4408,13 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 106.68 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fed78e4-ed82-41c5-aafc-46eb7c5e6db1)
-    (property "Reference" "Q3" (at 106.68 96.52 90)
+    (property "Reference" "Q5" (at 106.68 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KSP44" (at 106.68 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 109.22 95.25 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 90.17 0)
@@ -4426,7 +4426,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q3") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -4435,13 +4435,13 @@
   (symbol (lib_id "Device:R") (at 120.65 194.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 403e3b6a-f714-4c87-939e-7186ee6171e8)
-    (property "Reference" "R21" (at 114.3 193.04 90)
+    (property "Reference" "R17" (at 114.3 193.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1kR" (at 120.65 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 196.088 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 196.088 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 194.31 0)
@@ -4452,7 +4452,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R21") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4461,13 +4461,13 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 106.68 214.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41e71afd-3aa6-4f20-b427-5cff2c181425)
-    (property "Reference" "Q10" (at 106.68 220.98 90)
+    (property "Reference" "Q11" (at 106.68 220.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KSP44" (at 106.68 223.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 109.22 219.71 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 109.22 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 214.63 0)
@@ -4479,7 +4479,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q10") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -4488,13 +4488,13 @@
   (symbol (lib_id "Device:R") (at 311.15 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4278790d-c1f2-4d13-87cf-f2c324372912)
-    (property "Reference" "R11" (at 311.15 78.74 90)
+    (property "Reference" "R10" (at 311.15 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330kR" (at 311.15 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 86.868 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 86.868 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 85.09 0)
@@ -4505,7 +4505,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4520,7 +4520,7 @@
     (property "Value" "33kR" (at 311.15 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 94.488 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 94.488 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 92.71 0)
@@ -4540,13 +4540,13 @@
   (symbol (lib_id "Device:R") (at 311.15 194.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43f35831-4c3d-441d-a45d-1e950f2fda5f)
-    (property "Reference" "R27" (at 304.8 193.04 90)
+    (property "Reference" "R18" (at 304.8 193.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1kR" (at 311.15 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 196.088 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 196.088 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 194.31 0)
@@ -4557,7 +4557,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R27") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4566,7 +4566,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 76.2 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45b7c28d-3c83-4dc4-bcbc-d83fb6c1b664)
-    (property "Reference" "#PWR02" (at 76.2 96.52 0)
+    (property "Reference" "#PWR09" (at 76.2 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 76.2 95.25 0)
@@ -4582,7 +4582,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4591,7 +4591,7 @@
   (symbol (lib_id "Potentiometer_Digital:MCP4451-xxxx-ST") (at 146.05 374.65 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 460b2034-2b0d-4916-ad7a-857635477223)
-    (property "Reference" "U2" (at 152.4 373.38 0)
+    (property "Reference" "U5" (at 152.4 373.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP4451" (at 152.4 375.92 0)
@@ -4626,7 +4626,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U2") (unit 4)
+          (reference "U5") (unit 4)
         )
       )
     )
@@ -4635,7 +4635,7 @@
   (symbol (lib_id "Potentiometer_Digital:MCP4451-xxxx-ST") (at 146.05 355.6 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 483c6609-46d7-421e-86b4-8501bd8619f5)
-    (property "Reference" "U2" (at 152.4 354.33 0)
+    (property "Reference" "U5" (at 152.4 354.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP4451" (at 152.4 356.87 0)
@@ -4670,7 +4670,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U2") (unit 3)
+          (reference "U5") (unit 3)
         )
       )
     )
@@ -4679,7 +4679,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 355.6 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4898d6f4-59ee-4d6a-a24b-3add1da7025c)
-    (property "Reference" "#PWR025" (at 355.6 78.74 0)
+    (property "Reference" "#PWR06" (at 355.6 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 361.95 71.12 0)
@@ -4695,7 +4695,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4704,13 +4704,13 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 237.49 213.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49820695-2501-46c1-a574-91260ca9b08e)
-    (property "Reference" "JP7" (at 236.22 215.9 90)
+    (property "Reference" "JP4" (at 236.22 215.9 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Open" (at 238.76 215.9 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 237.49 213.36 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 237.49 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.49 213.36 0)
@@ -4722,7 +4722,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "JP7") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
     )
@@ -4731,7 +4731,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 355.6 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b03ffba-ceb7-4c93-b9ef-487895c4011d)
-    (property "Reference" "#PWR041" (at 355.6 203.2 0)
+    (property "Reference" "#PWR020" (at 355.6 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 361.95 196.85 0)
@@ -4747,7 +4747,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4756,13 +4756,13 @@
   (symbol (lib_id "Device:R") (at 245.11 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e7cbdb9-afe0-47dc-a7a9-c2960dcd46ee)
-    (property "Reference" "R7" (at 245.11 60.96 90)
+    (property "Reference" "R4" (at 245.11 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2MR" (at 245.11 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 245.11 69.088 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 245.11 69.088 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 67.31 0)
@@ -4773,7 +4773,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4782,13 +4782,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 157.48 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51aed9fc-3079-4fdd-bf71-9b4d661dd1b9)
-    (property "Reference" "Q11" (at 163.83 182.88 0)
+    (property "Reference" "Q7" (at 163.83 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 163.83 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 162.56 181.61 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 162.56 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 184.15 0)
@@ -4800,7 +4800,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q11") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -4809,13 +4809,13 @@
   (symbol (lib_id "Device:C") (at 152.4 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52c78bb4-90af-4b0c-8306-6c76a929a9b5)
-    (property "Reference" "C1" (at 152.4 62.23 90)
+    (property "Reference" "C3" (at 152.4 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "22nF" (at 152.4 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 156.21 68.8848 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 156.21 68.8848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 69.85 0)
@@ -4826,7 +4826,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4835,13 +4835,13 @@
   (symbol (lib_id "Device:R") (at 54.61 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 535e59ca-a96b-4b10-b849-0ba85b119fe9)
-    (property "Reference" "R6" (at 54.61 60.96 90)
+    (property "Reference" "R3" (at 54.61 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2MR" (at 54.61 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 54.61 69.088 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 54.61 69.088 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 67.31 0)
@@ -4852,7 +4852,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4861,13 +4861,13 @@
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 180.34 377.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54c0f7aa-c168-4f06-8cc2-d41ac7d94f5b)
-    (property "Reference" "J3" (at 180.975 367.03 0)
+    (property "Reference" "J5" (at 180.975 367.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06_Pin" (at 180.975 369.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 180.34 377.19 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 180.34 377.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 377.19 0)
@@ -4882,7 +4882,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -4891,7 +4891,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 87.63 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55d76924-5cc5-4414-ac0c-74c08822ec12)
-    (property "Reference" "#FLG02" (at 87.63 95.885 0)
+    (property "Reference" "#FLG01" (at 87.63 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 87.63 99.06 0)
@@ -4907,7 +4907,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -4916,13 +4916,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 347.98 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 567dd1a6-7589-44ff-b15b-0e7dbc929ee8)
-    (property "Reference" "Q14" (at 354.33 182.88 0)
+    (property "Reference" "Q8" (at 354.33 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 354.33 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 353.06 181.61 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 353.06 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 184.15 0)
@@ -4934,7 +4934,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q14") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -4943,13 +4943,13 @@
   (symbol (lib_id "Device:R") (at 311.15 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 584a9f46-1494-4f27-9697-23de915fb1a5)
-    (property "Reference" "R8" (at 311.15 55.88 90)
+    (property "Reference" "R2" (at 311.15 55.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 311.15 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 64.008 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 64.008 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 62.23 0)
@@ -4960,7 +4960,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R8") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4969,7 +4969,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 135.89 360.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 594116fb-0a6e-49b6-ad87-598377a01ff9)
-    (property "Reference" "#PWR05" (at 135.89 367.03 0)
+    (property "Reference" "#PWR037" (at 135.89 367.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 135.89 367.03 0)
@@ -4985,7 +4985,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4994,7 +4994,7 @@
   (symbol (lib_id "Potentiometer_Digital:MCP4451-xxxx-ST") (at 146.05 339.09 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c96a77e-8ce0-412e-aecb-940670d2f9a8)
-    (property "Reference" "U2" (at 152.4 337.82 0)
+    (property "Reference" "U5" (at 152.4 337.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP4451" (at 152.4 340.36 0)
@@ -5029,7 +5029,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U2") (unit 2)
+          (reference "U5") (unit 2)
         )
       )
     )
@@ -5038,7 +5038,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 95.25 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc2b691-6a1e-44c9-9506-ff7ce0acb3df)
-    (property "Reference" "#PWR01" (at 95.25 114.3 0)
+    (property "Reference" "#PWR013" (at 95.25 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 95.25 113.03 0)
@@ -5054,7 +5054,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5063,7 +5063,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 135.89 379.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e813203-59f9-45d6-84d1-b2bd2a530bc1)
-    (property "Reference" "#PWR017" (at 135.89 386.08 0)
+    (property "Reference" "#PWR043" (at 135.89 386.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 135.89 386.08 0)
@@ -5079,7 +5079,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -5094,7 +5094,7 @@
     (property "Value" "Screw_Terminal_01x02" (at 101.6 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 104.14 54.61 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 104.14 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 54.61 0)
@@ -5114,7 +5114,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 87.63 218.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 651dce22-188c-44a4-be58-21cea4a8f799)
-    (property "Reference" "#FLG05" (at 87.63 220.345 0)
+    (property "Reference" "#FLG03" (at 87.63 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 87.63 223.52 0)
@@ -5130,7 +5130,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -5139,7 +5139,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 124.46 360.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b0b730-af52-4a5f-830c-3d1d53adac0a)
-    (property "Reference" "#PWR015" (at 124.46 367.03 0)
+    (property "Reference" "#PWR036" (at 124.46 367.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 124.46 367.03 0)
@@ -5155,7 +5155,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5164,7 +5164,7 @@
   (symbol (lib_id "Potentiometer_Digital:MCP4451-xxxx-ST") (at 146.05 320.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 663a5ff8-7b3d-4df3-ac74-053574e0e515)
-    (property "Reference" "U2" (at 152.4 318.77 0)
+    (property "Reference" "U5" (at 152.4 318.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP4451" (at 152.4 321.31 0)
@@ -5199,7 +5199,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U2") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -5208,7 +5208,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 53.34 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6709166e-1f1a-4061-aa46-1d77a21eeed6)
-    (property "Reference" "#PWR03" (at 53.34 97.79 0)
+    (property "Reference" "#PWR011" (at 53.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 53.34 96.52 0)
@@ -5224,7 +5224,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5233,7 +5233,7 @@
   (symbol (lib_id "ac-dimmer:GND_MCU") (at 38.1 364.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68749db5-bf1e-4100-b0c7-34554a5f439a)
-    (property "Reference" "#PWR013" (at 38.1 370.84 0)
+    (property "Reference" "#PWR038" (at 38.1 370.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_MCU" (at 38.1 369.57 0)
@@ -5249,7 +5249,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5258,7 +5258,7 @@
   (symbol (lib_id "ac-dimmer:GND_MCU") (at 52.07 382.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 696a0305-273a-448f-bae7-9ef162946d96)
-    (property "Reference" "#PWR014" (at 52.07 388.62 0)
+    (property "Reference" "#PWR044" (at 52.07 388.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_MCU" (at 52.07 387.35 0)
@@ -5274,7 +5274,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -5283,7 +5283,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 135.89 326.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69a03330-4240-4215-a8cd-6ec4f57aa294)
-    (property "Reference" "#PWR029" (at 135.89 332.74 0)
+    (property "Reference" "#PWR031" (at 135.89 332.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 135.89 331.47 0)
@@ -5299,7 +5299,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5308,13 +5308,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 347.98 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a8b7374-060f-4a7c-b4ba-74b62895d155)
-    (property "Reference" "Q5" (at 354.33 58.42 0)
+    (property "Reference" "Q2" (at 354.33 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 354.33 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 353.06 57.15 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 353.06 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 59.69 0)
@@ -5326,7 +5326,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q5") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -5335,7 +5335,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_1") (at 40.64 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b11b73c-7677-4769-8db9-fa0d080b90ac)
-    (property "Reference" "#PWR08" (at 40.64 90.17 0)
+    (property "Reference" "#PWR07" (at 40.64 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_1" (at 40.64 81.28 0)
@@ -5351,7 +5351,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5360,13 +5360,13 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 237.49 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bb0e371-7769-41f0-98c5-7ef58439cb90)
-    (property "Reference" "JP4" (at 236.22 91.44 90)
+    (property "Reference" "JP2" (at 236.22 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Open" (at 238.76 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 237.49 88.9 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 237.49 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.49 88.9 0)
@@ -5378,7 +5378,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "JP4") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -5387,13 +5387,13 @@
   (symbol (lib_id "Device:C") (at 95.25 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b6a7417-5fca-422d-b2fc-1180e2247728)
-    (property "Reference" "C8" (at 102.87 226.06 90)
+    (property "Reference" "C11" (at 102.87 226.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 99.695 229.235 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 96.2152 229.87 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 96.2152 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 226.06 0)
@@ -5404,7 +5404,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C8") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5413,7 +5413,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_4") (at 231.14 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f1bb6e2-110b-4112-839d-bc43920812a4)
-    (property "Reference" "#PWR038" (at 231.14 214.63 0)
+    (property "Reference" "#PWR022" (at 231.14 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_4" (at 231.14 205.74 0)
@@ -5429,7 +5429,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5438,7 +5438,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_3") (at 40.64 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86514d09-de7c-47d6-bc09-ad4fdb0d3686)
-    (property "Reference" "#PWR046" (at 40.64 214.63 0)
+    (property "Reference" "#PWR021" (at 40.64 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_3" (at 40.64 205.74 0)
@@ -5454,7 +5454,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5488,13 +5488,13 @@
   (symbol (lib_id "Device:D") (at 323.85 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 894083cf-0fba-48c7-8922-896a02f902f1)
-    (property "Reference" "D5" (at 322.58 219.71 90)
+    (property "Reference" "D4" (at 322.58 219.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 325.12 219.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 323.85 222.25 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 323.85 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 323.85 222.25 0)
@@ -5511,7 +5511,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -5520,13 +5520,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 347.98 204.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b5f7657-5b43-4484-b539-320cced0eab5)
-    (property "Reference" "Q15" (at 354.33 205.74 0)
+    (property "Reference" "Q10" (at 354.33 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 354.33 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 353.06 207.01 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 353.06 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 204.47 0)
@@ -5538,7 +5538,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q15") (unit 1)
+          (reference "Q10") (unit 1)
         )
       )
     )
@@ -5547,13 +5547,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 157.48 80.01 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f07635e-7cd7-43f3-883a-ee03ea5867e7)
-    (property "Reference" "Q4" (at 163.83 81.28 0)
+    (property "Reference" "Q3" (at 163.83 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 163.83 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 162.56 82.55 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 162.56 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 80.01 0)
@@ -5565,7 +5565,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -5574,7 +5574,7 @@
   (symbol (lib_id "power:+5V") (at 80.01 320.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f3b444e-cd72-493c-b8fc-379a48b2a952)
-    (property "Reference" "#PWR07" (at 80.01 323.85 0)
+    (property "Reference" "#PWR029" (at 80.01 323.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 80.01 314.96 0)
@@ -5590,7 +5590,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5599,13 +5599,13 @@
   (symbol (lib_id "Device:R") (at 120.65 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95b3d419-136f-44cf-a657-714189ce0e1a)
-    (property "Reference" "R24" (at 120.65 210.82 90)
+    (property "Reference" "R23" (at 120.65 210.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "33kR" (at 120.65 219.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 218.948 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 218.948 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 217.17 0)
@@ -5616,7 +5616,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5625,7 +5625,7 @@
   (symbol (lib_id "Driver_FET:FL5150MX") (at 266.7 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 991596d3-6289-4219-94d0-8be274755648)
-    (property "Reference" "U3" (at 268.8941 59.69 0)
+    (property "Reference" "U2" (at 268.8941 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FL5150MX" (at 268.8941 62.23 0)
@@ -5650,7 +5650,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5659,13 +5659,13 @@
   (symbol (lib_id "Device:R") (at 311.15 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9acd105b-6b8f-49f6-b2f2-2eb2d32bfdf6)
-    (property "Reference" "R9" (at 304.8 68.58 90)
+    (property "Reference" "R6" (at 304.8 68.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1kR" (at 311.15 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 71.628 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 71.628 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 69.85 0)
@@ -5676,7 +5676,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5685,13 +5685,13 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 297.18 214.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eeee769-8a9b-47cf-ace3-c8d2f83ebccf)
-    (property "Reference" "Q13" (at 297.18 220.98 90)
+    (property "Reference" "Q12" (at 297.18 220.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KSP44" (at 297.18 223.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 299.72 219.71 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 299.72 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 297.18 214.63 0)
@@ -5703,7 +5703,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q13") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -5712,7 +5712,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 124.46 326.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4b0df30-7763-4d71-8d5f-25cf34e959a1)
-    (property "Reference" "#PWR028" (at 124.46 332.74 0)
+    (property "Reference" "#PWR030" (at 124.46 332.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 124.46 331.47 0)
@@ -5728,7 +5728,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5737,13 +5737,13 @@
   (symbol (lib_id "Device:R") (at 120.65 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a73e21db-660a-4011-8278-90705b4527d7)
-    (property "Reference" "R20" (at 120.65 180.34 90)
+    (property "Reference" "R13" (at 120.65 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 120.65 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 188.468 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 188.468 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 186.69 0)
@@ -5754,7 +5754,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R20") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -5763,13 +5763,13 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 46.99 213.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abadc992-8e7c-4237-971b-94a379b301df)
-    (property "Reference" "JP6" (at 45.72 215.9 90)
+    (property "Reference" "JP3" (at 45.72 215.9 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Open" (at 48.26 215.9 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 46.99 213.36 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 46.99 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.99 213.36 0)
@@ -5781,7 +5781,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "JP6") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
     )
@@ -5790,7 +5790,7 @@
   (symbol (lib_id "ac-dimmer:GND_MCU") (at 80.01 368.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abbcb0da-eb6a-4f95-bb6a-3ebacd3bcb31)
-    (property "Reference" "#PWR06" (at 80.01 374.65 0)
+    (property "Reference" "#PWR040" (at 80.01 374.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_MCU" (at 80.01 373.38 0)
@@ -5806,7 +5806,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -5815,13 +5815,13 @@
   (symbol (lib_id "Device:R") (at 311.15 217.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abe7c81d-5bfc-46ed-814b-7c369eba1dc8)
-    (property "Reference" "R30" (at 311.15 210.82 90)
+    (property "Reference" "R24" (at 311.15 210.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "33kR" (at 311.15 219.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 311.15 218.948 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 311.15 218.948 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 217.17 0)
@@ -5832,7 +5832,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R30") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -5847,7 +5847,7 @@
     (property "Value" "Jumper_3_Open" (at 48.26 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 46.99 88.9 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 46.99 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.99 88.9 0)
@@ -5868,13 +5868,13 @@
   (symbol (lib_id "Device:C") (at 255.27 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b75750be-6e70-4f65-96eb-105ec821779d)
-    (property "Reference" "C17" (at 262.89 173.99 90)
+    (property "Reference" "C8" (at 262.89 173.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 259.715 177.165 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 256.2352 177.8 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 256.2352 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 173.99 0)
@@ -5885,7 +5885,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C17") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5894,7 +5894,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 285.75 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b90bc6f5-d2e1-459c-b7f7-cc345c6ddf72)
-    (property "Reference" "#PWR033" (at 285.75 238.76 0)
+    (property "Reference" "#PWR028" (at 285.75 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 285.75 238.76 0)
@@ -5910,7 +5910,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5919,13 +5919,13 @@
   (symbol (lib_id "Device:C") (at 285.75 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9806969-9378-4c31-8748-2c9629f1f843)
-    (property "Reference" "C10" (at 293.37 226.06 90)
+    (property "Reference" "C12" (at 293.37 226.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 290.195 229.235 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 286.7152 229.87 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 286.7152 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 285.75 226.06 0)
@@ -5936,7 +5936,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5945,13 +5945,13 @@
   (symbol (lib_id "Device:C") (at 87.63 327.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf062be3-1f05-41b3-ac56-4b12d5e8b547)
-    (property "Reference" "C3" (at 95.25 327.66 90)
+    (property "Reference" "C14" (at 95.25 327.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 92.075 330.835 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 88.5952 331.47 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 88.5952 331.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 327.66 0)
@@ -5962,7 +5962,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C3") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5971,7 +5971,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 278.13 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfc18f24-6171-4d51-84b4-f556c495d48a)
-    (property "Reference" "#FLG03" (at 278.13 95.885 0)
+    (property "Reference" "#FLG02" (at 278.13 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 278.13 99.06 0)
@@ -5987,7 +5987,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -5996,7 +5996,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 266.7 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0c9ee83-73fb-41e4-8b6f-b72bd615f416)
-    (property "Reference" "#PWR021" (at 266.7 96.52 0)
+    (property "Reference" "#PWR010" (at 266.7 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 266.7 95.25 0)
@@ -6012,7 +6012,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -6021,13 +6021,13 @@
   (symbol (lib_id "Device:C") (at 124.46 321.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c314050e-8493-4e7f-86df-d1132a3cb64e)
-    (property "Reference" "C6" (at 132.08 321.31 90)
+    (property "Reference" "C13" (at 132.08 321.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 128.905 324.485 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.4252 325.12 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 125.4252 325.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 321.31 0)
@@ -6038,7 +6038,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C6") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -6047,7 +6047,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 285.75 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3758544-89f8-4220-a392-9d702bc7463c)
-    (property "Reference" "#PWR024" (at 285.75 114.3 0)
+    (property "Reference" "#PWR014" (at 285.75 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 285.75 113.03 0)
@@ -6063,7 +6063,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6072,13 +6072,13 @@
   (symbol (lib_id "Device:C") (at 64.77 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6c8c767-904a-41bd-8b88-43915bf958c0)
-    (property "Reference" "C15" (at 72.39 49.53 90)
+    (property "Reference" "C1" (at 72.39 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 69.215 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 65.7352 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 65.7352 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 49.53 0)
@@ -6089,7 +6089,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C15") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -6098,13 +6098,13 @@
   (symbol (lib_id "Device:C") (at 124.46 356.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c78c3210-cf97-4ba3-b432-0b428925aca5)
-    (property "Reference" "C12" (at 132.08 356.87 90)
+    (property "Reference" "C16" (at 132.08 356.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 128.905 360.045 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.4252 360.68 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 125.4252 360.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 356.87 0)
@@ -6115,7 +6115,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C12") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -6130,7 +6130,7 @@
     (property "Value" "2MR" (at 120.65 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 64.008 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 64.008 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 62.23 0)
@@ -6150,7 +6150,7 @@
   (symbol (lib_id "Potentiometer_Digital:MCP4451-xxxx-ST") (at 80.01 351.79 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c90456ce-4d69-49c7-b1fe-5d90f7a25b76)
-    (property "Reference" "U2" (at 91.44 350.52 0)
+    (property "Reference" "U5" (at 91.44 350.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP4451" (at 91.44 353.06 0)
@@ -6185,7 +6185,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "U2") (unit 5)
+          (reference "U5") (unit 5)
         )
       )
     )
@@ -6194,7 +6194,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_2") (at 266.7 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbfd77ce-71a6-4665-a3ed-e1ac024fa542)
-    (property "Reference" "#PWR022" (at 266.7 45.72 0)
+    (property "Reference" "#PWR02" (at 266.7 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_2" (at 266.7 36.83 0)
@@ -6210,7 +6210,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -6219,13 +6219,13 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 38.1 356.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cda47700-4ec9-4ce8-8655-2c705d7a37ac)
-    (property "Reference" "JP2" (at 34.29 356.87 0)
+    (property "Reference" "JP5" (at 34.29 356.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SolderJumper_3_Open" (at 34.29 356.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 38.1 356.87 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" (at 38.1 356.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 356.87 0)
@@ -6237,7 +6237,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "JP2") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -6246,13 +6246,13 @@
   (symbol (lib_id "Device:D") (at 133.35 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce5efba7-9952-4e3c-aa5c-32d60df3af73)
-    (property "Reference" "D4" (at 132.08 219.71 90)
+    (property "Reference" "D3" (at 132.08 219.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 134.62 219.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 133.35 222.25 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 133.35 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 222.25 0)
@@ -6269,7 +6269,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -6284,7 +6284,7 @@
     (property "Value" "22nF" (at 152.4 190.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 156.21 193.3448 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 156.21 193.3448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 194.31 0)
@@ -6304,7 +6304,7 @@
   (symbol (lib_id "ac-dimmer:GND_MCU") (at 187.96 387.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7a4afba-d4b1-4609-9a00-3529f67908f1)
-    (property "Reference" "#PWR019" (at 187.96 393.7 0)
+    (property "Reference" "#PWR045" (at 187.96 393.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_MCU" (at 187.96 392.43 0)
@@ -6320,7 +6320,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -6329,7 +6329,7 @@
   (symbol (lib_id "power:+5V") (at 38.1 349.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de0888a7-1df2-4abd-999e-cba2e640c51e)
-    (property "Reference" "#PWR011" (at 38.1 353.06 0)
+    (property "Reference" "#PWR035" (at 38.1 353.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.1 344.17 0)
@@ -6345,7 +6345,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6379,7 +6379,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 368.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3c5d883-59f1-48a2-bdba-b705dd290f75)
-    (property "Reference" "#PWR018" (at 187.96 372.11 0)
+    (property "Reference" "#PWR041" (at 187.96 372.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 363.22 0)
@@ -6395,7 +6395,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -6404,7 +6404,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 165.1 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e609af9f-c2da-4787-a369-cd48e4643b96)
-    (property "Reference" "#PWR036" (at 165.1 203.2 0)
+    (property "Reference" "#PWR019" (at 165.1 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 171.45 196.85 0)
@@ -6420,7 +6420,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -6429,7 +6429,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_3") (at 53.34 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6b92bbf-9835-4427-a5a5-746cfc5e7f45)
-    (property "Reference" "#PWR026" (at 53.34 222.25 0)
+    (property "Reference" "#PWR025" (at 53.34 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_3" (at 53.34 222.25 0)
@@ -6445,7 +6445,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6454,7 +6454,7 @@
   (symbol (lib_id "ac-dimmer:GND_MCU") (at 87.63 332.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8366f76-3020-40f8-aa3d-b35f8fa91104)
-    (property "Reference" "#PWR010" (at 87.63 339.09 0)
+    (property "Reference" "#PWR032" (at 87.63 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_MCU" (at 87.63 337.82 0)
@@ -6470,7 +6470,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6479,7 +6479,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_1") (at 64.77 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8c5e245-289f-4451-9af2-b0d23b626d5f)
-    (property "Reference" "#PWR027" (at 64.77 60.96 0)
+    (property "Reference" "#PWR03" (at 64.77 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_1" (at 64.77 59.69 0)
@@ -6495,7 +6495,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -6504,13 +6504,13 @@
   (symbol (lib_id "Device:R") (at 120.65 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef513788-5ee5-4eba-bae7-e0f487406a38)
-    (property "Reference" "R5" (at 120.65 86.36 90)
+    (property "Reference" "R11" (at 120.65 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "33kR" (at 120.65 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 94.488 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 94.488 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 92.71 0)
@@ -6521,7 +6521,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R5") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6530,13 +6530,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 256.54 388.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efa044ed-dcaf-478d-8bb2-ac40f4d73230)
-    (property "Reference" "J2" (at 259.08 388.62 0)
+    (property "Reference" "J6" (at 259.08 388.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 259.08 391.16 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 256.54 388.62 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 256.54 388.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 256.54 388.62 0)
@@ -6547,7 +6547,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "J2") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -6556,7 +6556,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_4") (at 266.7 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1968365-1f2a-4bf1-b595-9aa4a17e9cde)
-    (property "Reference" "#PWR039" (at 266.7 220.98 0)
+    (property "Reference" "#PWR024" (at 266.7 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_4" (at 266.7 220.98 0)
@@ -6572,7 +6572,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -6581,7 +6581,7 @@
   (symbol (lib_id "power:+5V") (at 52.07 367.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f237c711-9bfe-4903-bbbf-b0329c70bac3)
-    (property "Reference" "#PWR012" (at 52.07 370.84 0)
+    (property "Reference" "#PWR039" (at 52.07 370.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 52.07 361.95 0)
@@ -6597,7 +6597,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -6606,7 +6606,7 @@
   (symbol (lib_id "ac-dimmer:VDD_DIM_3") (at 76.2 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2d0ce64-4d4e-43b8-8791-e784c6192261)
-    (property "Reference" "#PWR034" (at 76.2 170.18 0)
+    (property "Reference" "#PWR015" (at 76.2 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_DIM_3" (at 76.2 161.29 0)
@@ -6622,7 +6622,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6637,7 +6637,7 @@
     (property "Value" "1N4007" (at 325.12 95.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 323.85 97.79 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 323.85 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 323.85 97.79 0)
@@ -6663,13 +6663,13 @@
   (symbol (lib_id "Device:C") (at 64.77 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ca899a-1cb9-427d-bdd3-6be64868a80f)
-    (property "Reference" "C14" (at 72.39 173.99 90)
+    (property "Reference" "C7" (at 72.39 173.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0.1uF" (at 69.215 177.165 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 65.7352 177.8 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 65.7352 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 173.99 0)
@@ -6680,7 +6680,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C14") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -6689,13 +6689,13 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 157.48 204.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9333cb5-f2b3-4a52-a7f5-25cfe50644ce)
-    (property "Reference" "Q12" (at 163.83 205.74 0)
+    (property "Reference" "Q9" (at 163.83 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF840" (at 163.83 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 162.56 207.01 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 162.56 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 204.47 0)
@@ -6707,7 +6707,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q12") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -6716,13 +6716,13 @@
   (symbol (lib_id "Device:R") (at 120.65 201.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa00496d-e324-447d-99bb-aee7ff01b0c2)
-    (property "Reference" "R22" (at 120.65 195.58 90)
+    (property "Reference" "R19" (at 120.65 195.58 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "2MR" (at 120.65 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 203.708 90)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide" (at 120.65 203.708 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 201.93 0)
@@ -6733,7 +6733,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "R22") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -6742,7 +6742,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 135.89 344.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa232dca-36af-4d75-ba05-86e2f8b66233)
-    (property "Reference" "#PWR016" (at 135.89 350.52 0)
+    (property "Reference" "#PWR034" (at 135.89 350.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 135.89 349.25 0)
@@ -6758,7 +6758,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -6767,13 +6767,13 @@
   (symbol (lib_id "Device:C") (at 342.9 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb8bf592-56f2-4f68-9409-49b265aa3175)
-    (property "Reference" "C5" (at 342.9 62.23 90)
+    (property "Reference" "C4" (at 342.9 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "22nF" (at 342.9 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 346.71 68.8848 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 346.71 68.8848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 342.9 69.85 0)
@@ -6784,7 +6784,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6793,7 +6793,7 @@
   (symbol (lib_id "ac-dimmer:GND_DIM_2") (at 124.46 344.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbb89c2d-5351-4481-9274-c9c51cf8e126)
-    (property "Reference" "#PWR043" (at 124.46 350.52 0)
+    (property "Reference" "#PWR033" (at 124.46 350.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_DIM_2" (at 124.46 349.25 0)
@@ -6809,7 +6809,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6852,13 +6852,13 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 297.18 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd89c22c-66bd-4bf7-9419-8439bf75ad6f)
-    (property "Reference" "Q2" (at 297.18 96.52 90)
+    (property "Reference" "Q6" (at 297.18 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KSP44" (at 297.18 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 299.72 95.25 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 299.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 297.18 90.17 0)
@@ -6870,7 +6870,7 @@
     (instances
       (project "ac-dimmer"
         (path "/8324d950-8a80-495d-b387-122fc607d7ac"
-          (reference "Q2") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
