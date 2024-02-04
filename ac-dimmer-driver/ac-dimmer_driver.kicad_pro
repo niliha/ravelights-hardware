@@ -411,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ac-dimmer.kicad_pro",
+    "filename": "ac-dimmer_driver.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -497,6 +497,10 @@
       {
         "netclass": "Mains",
         "pattern": "/MAINS_NEUTRAL_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
       }
     ]
   },
