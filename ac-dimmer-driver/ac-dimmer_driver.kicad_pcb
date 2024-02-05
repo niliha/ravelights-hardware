@@ -7565,7 +7565,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/5af0b3ba-40b9-4d90-9744-a09142841820")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 -3.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp beceb8a1-33f9-420c-889c-b9b7927af22c)
@@ -7595,7 +7595,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/fee05314-ece2-4558-bc42-74a76fda870d")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at 0 -3.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 503f35f9-d3d4-40a8-8b06-ed8bbb132653)
@@ -7625,7 +7625,7 @@
     (property "ki_description" "Solder Jumper, 3-pole, open")
     (property "ki_keywords" "Solder Jumper SPDT")
     (path "/b7feb6b2-40b7-4cc4-96c0-92524695c0dc")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at 0 -1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 206163cf-c37b-491b-a943-0e3a50ae891e)
@@ -7674,7 +7674,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/809eb6a8-b271-499c-bf54-9db263cbfa32")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 -3.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0607d595-3781-4019-a51a-fd5d72a5d334)
@@ -7704,7 +7704,7 @@
     (property "ki_description" "Generic connector, single row, 01x08, script generated")
     (property "ki_keywords" "connector")
     (path "/0bdcc211-c7f8-412f-9e5e-8f6228999284")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aaf66c76-a5ba-495c-9832-7772ce4f79cd)
@@ -7780,7 +7780,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/f5ca2b7e-051d-470d-9983-740aa660e450")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 -3.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b686f9c4-7e65-4edd-8b54-eaee72810f69)
@@ -7843,9 +7843,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fb78c592-dcb8-4b84-8b28-d1234e72a037))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 048674c7-3405-40dc-96ab-e698c3ce0356))
-    (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 1 "+5V") (pintype "passive") (tstamp a3809fe6-3e60-436e-9ce2-96abaea8e454))
-    (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 2 "GND") (pintype "passive") (tstamp 561ddc70-5cda-4c41-8c84-0f2dc2be5b47))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7864,7 +7864,7 @@
     (property "ki_description" "Generic connector, single row, 01x08, script generated")
     (property "ki_keywords" "connector")
     (path "/11025aaa-571f-415e-badb-3e5564ffe652")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0710ba0-aba1-4353-878c-6a5040170908)
@@ -7940,7 +7940,7 @@
     (property "ki_description" "Solder Jumper, 3-pole, open")
     (property "ki_keywords" "Solder Jumper SPDT")
     (path "/48cd8cda-ab07-4562-8740-c10b26c67511")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP2" (at 0 -1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7de8e818-5bc4-4c85-9fe5-b2d7472dc682)
