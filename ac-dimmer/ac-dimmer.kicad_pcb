@@ -179,7 +179,7 @@
     (property "ki_description" "Diode")
     (property "ki_keywords" "diode")
     (path "/2e021ddf-d991-4960-8a63-3ab6b66f6794")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "D1" (at 5.08 -2.47) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5bbd1cc-6817-4752-a4b4-1b659af5c67a)
@@ -7664,7 +7664,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/809eb6a8-b271-499c-bf54-9db263cbfa32")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c961922b-df1b-44b6-86cc-52d18d6239aa)
@@ -7694,7 +7694,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/5af0b3ba-40b9-4d90-9744-a09142841820")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d65491ba-3abc-407a-9535-850df8899b52)
@@ -7724,7 +7724,7 @@
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "screw terminal")
     (path "/efa044ed-dcaf-478d-8bb2-ac40f4d73230")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J6" (at 2.54 -6.26 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 307c6492-9504-4dbf-8a09-4a7bf8d7d930)
@@ -7942,7 +7942,7 @@
     (property "ki_description" "Generic connector, single row, 01x02, script generated")
     (property "ki_keywords" "connector")
     (path "/adf00e31-ad98-4fa2-b847-8be8ce78fe8e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4168cbb-ede2-41a4-ab10-b15104830ff3)
@@ -8060,7 +8060,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/f5ca2b7e-051d-470d-9983-740aa660e450")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3084d73f-b441-4e14-ab58-8752280ad168)
@@ -8144,7 +8144,7 @@
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "screw terminal")
     (path "/2c1356ed-1888-4d32-9fac-a1b5116255f3")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 2.54 -6.26 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c4c0315-7b10-4e50-8550-f9d46f37016c)
@@ -8712,7 +8712,7 @@
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/fee05314-ece2-4558-bc42-74a76fda870d")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad6dfbb4-125c-453f-9f57-2dd44353b136)
@@ -8796,7 +8796,7 @@
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "screw terminal")
     (path "/60cc0dfc-d4f0-4506-b535-b29fb4b011b2")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 2.54 -5.08 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99e8569c-b742-448e-a404-95d74b81aff0)
@@ -9192,7 +9192,7 @@
     (property "ki_description" "Jumper, 3-pole, both open")
     (property "ki_keywords" "Jumper SPDT")
     (path "/b3406744-6027-44d4-bbef-12954208fb1e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f731a04-7666-450d-9dbb-01d47e3966b7)
