@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "leading-edge-ac-dimmer")(type "KiCad")(uri "${KIPRJMOD}/leading-edge-ac-dimmer.pretty")(options "")(descr ""))
+)

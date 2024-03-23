@@ -1,0 +1,99 @@
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.12.1 (main, Dec 18 2023, 00:00:00) [GCC 13.2.1 20231205 (Red Hat 13.2.1-6)]'
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.10-1.fc39
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7f8436019be0>
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with Q1 as a reference
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'Q1'
+Located on: ['Channel 1']
+With filenames: ['channel1.kicad_sch']
+With sheet_id:['Channel 1']
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('Q6', ['Channel 6']), ('Q8', ['Channel 8']), ('Q1', ['Channel 1']), ('Q7', ['Channel 7']), ('Q4', ['Channel 4']), ('Q3', ['Channel 3']), ('Q2', ['Channel 2']), ('Q5', ['Channel 5'])]
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Channel 1', file:'channel1.kicad_sch'
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Channel 2'], ['Channel 3'], ['Channel 4'], ['Channel 5'], ['Channel 6'], ['Channel 7'], ['Channel 8']]
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['Channel 1']
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(2341, 107)
+03-06 21:04:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1902, 107)
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Channel 1', file:'channel1.kicad_sch'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['Channel 2'], ['Channel 3'], ['Channel 4'], ['Channel 5'], ['Channel 6'], ['Channel 7'], ['Channel 8']]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['Channel 2'], ['Channel 3'], ['Channel 4'], ['Channel 5'], ['Channel 6'], ['Channel 7'], ['Channel 8']]
+on level: ['Channel 1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+03-06 21:04:16 root 332:updating GUI message: 'Preparing for replication'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+03-06 21:04:16 root 337:updating GUI with: 0
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+03-06 21:04:16 root 332:updating GUI message: 'Replicating footprints'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+03-06 21:04:16 root 337:updating GUI with: 0
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 2']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 3']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 4']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 5']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 6']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 7']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['Channel 8']
+03-06 21:04:16 root 332:updating GUI message: 'Replicating tracks'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+03-06 21:04:16 root 337:updating GUI with: 0
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 2']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 2'] :[('DIM1-', 'DIM2-'), ('DIM1+', 'DIM2+'), ('Net-(R1-Pad2)', 'Net-(R4-Pad2)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U2-NC-Pad5)'), ('LOAD1', 'LOAD2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U2-NC-Pad3)'), ('Net-(R2-Pad1)', 'Net-(R5-Pad1)'), ('LIVE', 'LIVE'), ('Net-(C1-Pad1)', 'Net-(C2-Pad1)'), ('Net-(Q1-G)', 'Net-(Q2-G)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 3']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 3'] :[('DIM1-', 'DIM3-'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U3-NC-Pad3)'), ('LOAD1', 'LOAD3'), ('LIVE', 'LIVE'), ('Net-(R2-Pad1)', 'Net-(R8-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R7-Pad2)'), ('Net-(Q1-G)', 'Net-(Q3-G)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U3-NC-Pad5)'), ('DIM1+', 'DIM3+'), ('Net-(C1-Pad1)', 'Net-(C3-Pad1)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 4']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 4'] :[('Net-(R1-Pad2)', 'Net-(R10-Pad2)'), ('DIM1+', 'DIM4+'), ('Net-(Q1-G)', 'Net-(Q4-G)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U4-NC-Pad3)'), ('Net-(R2-Pad1)', 'Net-(R11-Pad1)'), ('DIM1-', 'DIM4-'), ('Net-(C1-Pad1)', 'Net-(C4-Pad1)'), ('LIVE', 'LIVE'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U4-NC-Pad5)'), ('LOAD1', 'LOAD4')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 5']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 5'] :[('Net-(C1-Pad1)', 'Net-(C5-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U5-NC-Pad5)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('Net-(R1-Pad2)', 'Net-(R13-Pad2)'), ('Net-(Q1-G)', 'Net-(Q5-G)'), ('Net-(R2-Pad1)', 'Net-(R14-Pad1)'), ('LIVE', 'LIVE'), ('DIM1-', 'DIM5-'), ('DIM1+', 'DIM5+'), ('LOAD1', 'LOAD5')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 6']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 6'] :[('Net-(Q1-G)', 'Net-(Q6-G)'), ('DIM1+', 'DIM6+'), ('DIM1-', 'DIM6-'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U6-NC-Pad5)'), ('Net-(R2-Pad1)', 'Net-(R17-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R16-Pad2)'), ('LIVE', 'LIVE'), ('Net-(C1-Pad1)', 'Net-(C6-Pad1)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U6-NC-Pad3)'), ('LOAD1', 'LOAD6')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 7']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 7'] :[('DIM1+', 'DIM7+'), ('LOAD1', 'LOAD7'), ('Net-(Q1-G)', 'Net-(Q7-G)'), ('Net-(R2-Pad1)', 'Net-(R20-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R19-Pad2)'), ('LIVE', 'LIVE'), ('DIM1-', 'DIM7-'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U7-NC-Pad3)'), ('Net-(C1-Pad1)', 'Net-(C7-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U7-NC-Pad5)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['Channel 8']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 8'] :[('unconnected-(U1-NC-Pad5)', 'unconnected-(U8-NC-Pad5)'), ('Net-(Q1-G)', 'Net-(Q8-G)'), ('Net-(C1-Pad1)', 'Net-(C8-Pad1)'), ('DIM1+', 'DIM8+'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U8-NC-Pad3)'), ('LIVE', 'LIVE'), ('LOAD1', 'LOAD8'), ('DIM1-', 'DIM8-'), ('Net-(R1-Pad2)', 'Net-(R22-Pad2)'), ('Net-(R2-Pad1)', 'Net-(R23-Pad1)')]
+03-06 21:04:16 root 332:updating GUI message: 'Replicating zones'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+03-06 21:04:16 root 337:updating GUI with: 0
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 2']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 2'] :[('DIM1-', 'DIM2-'), ('DIM1+', 'DIM2+'), ('Net-(R1-Pad2)', 'Net-(R4-Pad2)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U2-NC-Pad5)'), ('LOAD1', 'LOAD2'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U2-NC-Pad3)'), ('Net-(R2-Pad1)', 'Net-(R5-Pad1)'), ('LIVE', 'LIVE'), ('Net-(C1-Pad1)', 'Net-(C2-Pad1)'), ('Net-(Q1-G)', 'Net-(Q2-G)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 3']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 3'] :[('DIM1-', 'DIM3-'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U3-NC-Pad3)'), ('LOAD1', 'LOAD3'), ('LIVE', 'LIVE'), ('Net-(R2-Pad1)', 'Net-(R8-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R7-Pad2)'), ('Net-(Q1-G)', 'Net-(Q3-G)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U3-NC-Pad5)'), ('DIM1+', 'DIM3+'), ('Net-(C1-Pad1)', 'Net-(C3-Pad1)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 4']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 4'] :[('Net-(R1-Pad2)', 'Net-(R10-Pad2)'), ('DIM1+', 'DIM4+'), ('Net-(Q1-G)', 'Net-(Q4-G)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U4-NC-Pad3)'), ('Net-(R2-Pad1)', 'Net-(R11-Pad1)'), ('DIM1-', 'DIM4-'), ('Net-(C1-Pad1)', 'Net-(C4-Pad1)'), ('LIVE', 'LIVE'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U4-NC-Pad5)'), ('LOAD1', 'LOAD4')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 5']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 5'] :[('Net-(C1-Pad1)', 'Net-(C5-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U5-NC-Pad5)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('Net-(R1-Pad2)', 'Net-(R13-Pad2)'), ('Net-(Q1-G)', 'Net-(Q5-G)'), ('Net-(R2-Pad1)', 'Net-(R14-Pad1)'), ('LIVE', 'LIVE'), ('DIM1-', 'DIM5-'), ('DIM1+', 'DIM5+'), ('LOAD1', 'LOAD5')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 6']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 6'] :[('Net-(Q1-G)', 'Net-(Q6-G)'), ('DIM1+', 'DIM6+'), ('DIM1-', 'DIM6-'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U6-NC-Pad5)'), ('Net-(R2-Pad1)', 'Net-(R17-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R16-Pad2)'), ('LIVE', 'LIVE'), ('Net-(C1-Pad1)', 'Net-(C6-Pad1)'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U6-NC-Pad3)'), ('LOAD1', 'LOAD6')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 7']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 7'] :[('DIM1+', 'DIM7+'), ('LOAD1', 'LOAD7'), ('Net-(Q1-G)', 'Net-(Q7-G)'), ('Net-(R2-Pad1)', 'Net-(R20-Pad1)'), ('Net-(R1-Pad2)', 'Net-(R19-Pad2)'), ('LIVE', 'LIVE'), ('DIM1-', 'DIM7-'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U7-NC-Pad3)'), ('Net-(C1-Pad1)', 'Net-(C7-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U7-NC-Pad5)')]
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['Channel 8']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['Channel 8'] :[('unconnected-(U1-NC-Pad5)', 'unconnected-(U8-NC-Pad5)'), ('Net-(Q1-G)', 'Net-(Q8-G)'), ('Net-(C1-Pad1)', 'Net-(C8-Pad1)'), ('DIM1+', 'DIM8+'), ('unconnected-(U1-NC-Pad3)', 'unconnected-(U8-NC-Pad3)'), ('LIVE', 'LIVE'), ('LOAD1', 'LOAD8'), ('DIM1-', 'DIM8-'), ('Net-(R1-Pad2)', 'Net-(R22-Pad2)'), ('Net-(R2-Pad1)', 'Net-(R23-Pad1)')]
+03-06 21:04:16 root 332:updating GUI message: 'Replicating text'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+03-06 21:04:16 root 337:updating GUI with: 0
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 2']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 3']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 4']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 5']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 6']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 7']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['Channel 8']
+03-06 21:04:16 root 332:updating GUI message: 'Replicating drawings'
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 2']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 3']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 4']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 5']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 6']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 7']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['Channel 8']
+03-06 21:04:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
