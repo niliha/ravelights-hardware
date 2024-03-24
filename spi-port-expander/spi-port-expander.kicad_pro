@@ -413,7 +413,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32shield.kicad_pro",
+    "filename": "spi-port-expander.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -554,6 +554,10 @@
       {
         "netclass": "Power",
         "pattern": "/LED_G27_AN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
       }
     ]
   },
