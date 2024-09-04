@@ -7,4 +7,4 @@ This can be fixed by omitting the snubber circuit at the cost of not being able 
 In a future revision, the snubber resistor will be replaced with a more suitable one.
 
 
-![3d-model](https://github.com/niliha/ravelights-hardware/assets/75397148/4fdcd0a7-baa3-4ba1-9b4c-3569916df3d4)
+![3d-model](https://github.com/user-attachments/assets/4259b6e9-836b-4eeb-a49e-7873b9bbdee9)
