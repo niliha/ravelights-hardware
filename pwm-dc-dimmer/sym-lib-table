@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pwm-dc-dimmer")(type "KiCad")(uri "${KIPRJMOD}/pwm-dc-dimmer.kicad_sym")(options "")(descr ""))
+)
