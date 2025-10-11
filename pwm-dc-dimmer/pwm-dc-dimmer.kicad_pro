@@ -568,6 +568,10 @@
       {
         "netclass": "Load",
         "pattern": "V_LOAD_FUSED"
+      },
+      {
+        "netclass": "Load",
+        "pattern": "/OUT1+"
       }
     ]
   },
@@ -708,47 +712,47 @@
       "Channel 1"
     ],
     [
-      "9aa54645-ad1a-44a4-a161-73f13ce71b9c",
+      "c36619ef-e14a-4779-9e9a-92e27a1f1943",
       "Channel 2"
     ],
     [
-      "d58e4592-add7-40ed-95ec-f3a33ac7d55b",
+      "9f6f4669-b3cf-47d9-a978-d25c5eb32327",
       "Channel 3"
     ],
     [
-      "543d7a8d-11bf-4721-99c3-aeef07f49c0a",
+      "2f840e89-9d5f-440c-b358-e9db5cf86b5b",
       "Channel 4"
     ],
     [
-      "997a8e7c-1220-4e67-8ea2-dc36af6dc4a6",
+      "8dc5d316-05c5-479f-bdcb-4e438d2db41f",
       "Channel 5"
     ],
     [
-      "df4cc9f5-3ef1-4c5d-a759-25217cddc16e",
+      "e1f14ee9-107b-424e-9344-d9b319eea27b",
       "Channel 6"
     ],
     [
-      "a8a8680c-a67e-48d6-bc49-573aad04519b",
+      "460d162d-6551-45b9-9889-c6a587907796",
       "Channel 7"
     ],
     [
-      "97a42683-1643-4675-b367-6681ef4b7b5c",
+      "ed6d943b-b909-4e05-8b45-7d721eb1ee56",
       "Channel 8"
     ],
     [
-      "3064db6a-5a0b-4054-b289-511ee6a3d510",
+      "2084acfb-e972-4740-9a12-ebdb2bd1e752",
       "Channel 9"
     ],
     [
-      "04a3c5a0-34ef-4944-af77-edc38e03cfbb",
+      "a91f7db0-e5cd-4897-8719-0d42080a4fe6",
       "Channel 10"
     ],
     [
-      "dd4e712f-28eb-482d-a661-5d3790a9e257",
+      "f4f31b0a-050a-4bab-a092-e6ead8fce41a",
       "Channel 11"
     ],
     [
-      "e978ff55-1725-4504-997c-e1701dd01b42",
+      "1d0455a7-9cee-480d-a14d-c84c053a2b31",
       "Channel 12"
     ]
   ],

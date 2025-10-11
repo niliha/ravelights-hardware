@@ -5,6 +5,142 @@
 	(uuid "b7c93f16-2598-42b6-9402-7b41c676c9ef")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -700,147 +836,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pwm-dc-dimmer:V_GATE"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "V_GATE"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"V_GATE\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "V_GATE_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "V_GATE_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "5V / 300R = 16 mA"
+	(text "5V / 200R = 25 mA\n2x 0805 resistors"
 		(exclude_from_sim no)
-		(at 111.506 86.36 0)
+		(at 99.314 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "a7427b85-c309-4978-9f69-2c145a9cbeaf")
 	)
+	(text "15 W light bulb = 0.3 A\n=> 1A fuse"
+		(exclude_from_sim no)
+		(at 99.822 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a96c26d0-f09e-41cf-baa7-f4e58da2b94d")
+	)
 	(junction
-		(at 124.46 95.25)
+		(at 134.62 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24081368-df79-4c6d-8ccb-a4405d298264")
+		(uuid "36aea14b-5bb7-4bb9-9733-732dbcded6f5")
 	)
 	(junction
 		(at 134.62 80.01)
@@ -860,13 +883,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 124.46 95.25)
+			(xy 92.71 43.18) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22c4dd84-a1e4-47fe-9cdf-fae6f539e215")
+		(uuid "07d69324-d44b-4c69-ae44-9c6a16106003")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adfa21a-b8e2-4988-a628-e0e537343e4e")
 	)
 	(wire
 		(pts
@@ -890,13 +923,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 127 95.25)
+			(xy 92.71 95.25) (xy 97.79 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50d2f5c6-69a9-48e0-b204-0b19876ba6ff")
+		(uuid "580fd7b1-9341-4e24-bc1c-390ee2ed804c")
 	)
 	(wire
 		(pts
@@ -910,13 +943,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 134.62 49.53)
+			(xy 114.3 43.18) (xy 134.62 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64e0f53c-7740-4f0f-81bf-1996fe352abc")
+		(uuid "6afa0697-c258-43ee-a9a6-5d1e9f8f924d")
 	)
 	(wire
 		(pts
@@ -930,23 +963,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 124.46 95.25)
+			(xy 134.62 43.18) (xy 167.64 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91f5e459-b324-45c7-8f38-bf13827f6e99")
+		(uuid "71fd4d3a-85a0-4460-87ff-f7b159e99b67")
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 124.46 82.55)
+			(xy 105.41 95.25) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6075ffc-586a-4a35-a3b2-d68f369e2369")
+		(uuid "e4c2791d-1560-4b0e-b023-24858a774a28")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e00306-6c30-4bea-bd98-9f7d7c9515c5")
 	)
 	(wire
 		(pts
@@ -978,31 +1021,20 @@
 		)
 		(uuid "5f3af860-1660-4c3a-a5e7-751f95fdc8da")
 	)
-	(global_label "V_LOAD_FUSED"
+	(hierarchical_label "V_LOAD"
 		(shape input)
-		(at 134.62 46.99 90)
-		(fields_autoplaced yes)
+		(at 92.71 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9b72b8b8-ba29-44ed-8bd1-9816391c2843")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 30.2162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "0ffc8fa4-29df-4c7b-b340-d1d5c14a4caa")
 	)
-	(hierarchical_label "GATE_SINK"
+	(hierarchical_label "GATE_DRIVE"
 		(shape input)
-		(at 120.65 95.25 180)
+		(at 92.71 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1010,6 +1042,17 @@
 			(justify right)
 		)
 		(uuid "1857b27e-9889-41fe-a275-d59ff914ea72")
+	)
+	(hierarchical_label "LOAD_CATHODE"
+		(shape output)
+		(at 167.64 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77aca59d-b6d7-479a-92b6-abceb6199a7f")
 	)
 	(hierarchical_label "LOAD_ANODE"
 		(shape output)
@@ -1023,6 +1066,118 @@
 		(uuid "8d759924-a5f7-427c-a07a-89344235b5ea")
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 110.49 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "313ad79d-0b36-45fa-8acf-e87acc78cdc9")
+		(property "Reference" "F14"
+			(at 110.236 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 110.49 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pwm-ac-dimmer:fuseholder"
+			(at 110.49 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7463188f-8958-483c-b21e-b3bd51438f07")
+		)
+		(pin "1"
+			(uuid "74d1dea2-ba79-42de-bc7a-a9143b4158b1")
+		)
+		(instances
+			(project "pwm-dc-dimmer"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "F7")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "F5")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
+					(reference "F14")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "F3")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "F2")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "F6")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "F8")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "F11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 53.34 0)
 		(unit 1)
@@ -1032,7 +1187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aad4587-d144-4c56-b15d-4ee6c2bb724b")
-		(property "Reference" "R14"
+		(property "Reference" "R"
 			(at 137.16 52.0699 0)
 			(effects
 				(font
@@ -1078,59 +1233,167 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd26451a-511a-47f6-894c-8f331dc7fcc1")
+			(uuid "0b83b57f-3bd4-40ca-8995-4470da70f852")
 		)
 		(pin "1"
-			(uuid "3448fa50-a69c-4e97-85f3-0c3f56ddf148")
+			(uuid "f9a9dcc6-d483-40c7-abec-4c88ab29d088")
 		)
 		(instances
-			(project ""
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "R23")
+			(project "pwm-dc-dimmer"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "R56")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "R22")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "R35")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
-					(reference "R17")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "R13")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "R21")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "R27")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
 					(reference "R18")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "R15")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "R9")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
-					(reference "R14")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "R48")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
-					(reference "R20")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "R5")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
-					(reference "R16")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "R22")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7d065d-44eb-46aa-a00c-236084cf57a7")
+		(property "Reference" "R46"
+			(at 101.6 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 101.6 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 101.6 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0af444e-46cf-4563-bb28-35facd97bf31")
+		)
+		(pin "2"
+			(uuid "14061691-30e5-4b0d-9bdb-06f9731d92e6")
+		)
+		(instances
+			(project "pwm-dc-dimmer"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
 					(reference "R24")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "R19")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "R16")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "R25")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -1192,59 +1455,59 @@
 			)
 		)
 		(pin "2"
-			(uuid "2cd295d0-2d53-4a7c-bb38-9cab7a82a412")
+			(uuid "2e1d54fe-89b7-4b4a-8fdc-fb1c1bc7b8da")
 		)
 		(pin "1"
-			(uuid "935545f4-67ec-42e5-b894-5805a1e9b83d")
+			(uuid "cd912984-9081-4f21-b087-ddaee5b786d6")
 		)
 		(instances
 			(project "pwm-dc-dimmer"
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "R35")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "R57")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "R34")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "R36")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
-					(reference "R29")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "R15")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "R33")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "R28")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "R27")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
 					(reference "R26")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
 					(reference "R32")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "R37")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -1306,62 +1569,62 @@
 			)
 		)
 		(pin "1"
-			(uuid "19ea3fab-c940-46b2-9c0b-bec8a9058897")
+			(uuid "977b2199-8a30-4065-a816-835e50c445a9")
 		)
 		(pin "3"
-			(uuid "2e548241-dbbd-4254-9668-9f346ceea190")
+			(uuid "6c936354-2d35-4ccf-a0e7-9accc1faacf7")
 		)
 		(pin "2"
-			(uuid "7cf5b698-dfe1-4b7b-8fe3-602b5c093254")
+			(uuid "9fd5fc73-8699-442e-8413-184c0df43db8")
 		)
 		(instances
 			(project "pwm-dc-dimmer"
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "Q10")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "Q12")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
 					(reference "Q9")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
 					(reference "Q4")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "Q8")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "Q7")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
 					(reference "Q5")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "Q2")
 					(unit 1)
 				)
 				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
 					(reference "Q3")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "Q11")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "Q10")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
 					(reference "Q6")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "Q12")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -1422,56 +1685,56 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b4872ae-07f4-4b24-87d3-301c9628717a")
+			(uuid "8a4ab38a-c787-4836-9caf-186e7a9d841e")
 		)
 		(instances
 			(project "pwm-dc-dimmer"
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "#PWR041")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
 					(reference "#PWR028")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
 					(reference "#PWR08")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
-					(reference "#PWR035")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "#PWR016")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
-					(reference "#PWR024")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "#PWR044")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "#PWR02")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "#PWR033")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "#PWR046")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1487,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b7b239-1df0-498f-b529-0cba825eb026")
-		(property "Reference" "D1"
+		(property "Reference" "D"
 			(at 138.43 73.9774 90)
 			(effects
 				(font
@@ -1542,169 +1805,55 @@
 			)
 		)
 		(pin "2"
-			(uuid "8466b857-0f94-4e1d-9f07-7e583696740f")
+			(uuid "d45ac829-a27b-4c0f-85da-dd2e4bfaf55a")
 		)
 		(pin "1"
-			(uuid "a0e1908f-fdfe-4ce4-8672-b23be72713c3")
-		)
-		(instances
-			(project ""
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pwm-dc-dimmer:V_GATE")
-		(at 124.46 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d842cb-fefb-4491-b3d2-3d20fc697a18")
-		(property "Reference" "#PWR022"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_GATE"
-			(at 124.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"V_GATE\""
-			(at 124.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a28c48c-00c2-4d32-9a66-375cac69c7cd")
+			(uuid "200e66e7-da15-4763-ba0f-8c76e9e52c94")
 		)
 		(instances
 			(project "pwm-dc-dimmer"
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "#PWR040")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "D12")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "#PWR038")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "D9")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
-					(reference "#PWR026")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "D4")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "#PWR036")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "D7")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
-					(reference "#PWR030")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "D5")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "#PWR016")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
+					(reference "D3")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
-					(reference "#PWR022")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "D10")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
-					(reference "#PWR034")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
+					(reference "D2")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
-					(reference "#PWR020")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "D6")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "#PWR042")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "D8")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "#PWR045")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -1712,7 +1861,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 86.36 0)
+		(at 113.03 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1721,25 +1870,23 @@
 		(fields_autoplaced yes)
 		(uuid "e5dc4814-737c-4a60-ae64-09276ef03db7")
 		(property "Reference" "R3"
-			(at 127 85.0899 0)
+			(at 113.03 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "300R"
-			(at 127 87.6299 0)
+		(property "Value" "100R"
+			(at 113.03 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 122.682 86.36 90)
+			(at 113.03 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 86.36 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1904,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 86.36 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,59 +1913,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f603c2-56a8-4ac2-82d3-5fc683623acc")
+			(uuid "df19b473-b2f6-44dc-a547-691ccefe9b6f")
 		)
 		(pin "2"
-			(uuid "ffc1b93b-1b8b-4cbb-b41d-b6473e5b3aad")
+			(uuid "de878071-21e2-4680-af34-ce68c4deab55")
 		)
 		(instances
 			(project "pwm-dc-dimmer"
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/04a3c5a0-34ef-4944-af77-edc38e03cfbb"
-					(reference "R11")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/1d0455a7-9cee-480d-a14d-c84c053a2b31"
+					(reference "R55")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/3064db6a-5a0b-4054-b289-511ee6a3d510"
-					(reference "R10")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2084acfb-e972-4740-9a12-ebdb2bd1e752"
+					(reference "R34")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/543d7a8d-11bf-4721-99c3-aeef07f49c0a"
-					(reference "R5")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/2f840e89-9d5f-440c-b358-e9db5cf86b5b"
+					(reference "R12")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/97a42683-1643-4675-b367-6681ef4b7b5c"
-					(reference "R9")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/460d162d-6551-45b9-9889-c6a587907796"
+					(reference "R25")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/997a8e7c-1220-4e67-8ea2-dc36af6dc4a6"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9aa54645-ad1a-44a4-a161-73f13ce71b9c"
-					(reference "R2")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/8dc5d316-05c5-479f-bdcb-4e438d2db41f"
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9e53e31b-7c96-4c40-a7a2-e29af48f1e77"
 					(reference "R3")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a8a8680c-a67e-48d6-bc49-573aad04519b"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/9f6f4669-b3cf-47d9-a978-d25c5eb32327"
 					(reference "R8")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/d58e4592-add7-40ed-95ec-f3a33ac7d55b"
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/a91f7db0-e5cd-4897-8719-0d42080a4fe6"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/c36619ef-e14a-4779-9e9a-92e27a1f1943"
 					(reference "R4")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/dd4e712f-28eb-482d-a661-5d3790a9e257"
-					(reference "R12")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e1f14ee9-107b-424e-9344-d9b319eea27b"
+					(reference "R21")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/df4cc9f5-3ef1-4c5d-a759-25217cddc16e"
-					(reference "R7")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/ed6d943b-b909-4e05-8b45-7d721eb1ee56"
+					(reference "R30")
 					(unit 1)
 				)
-				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/e978ff55-1725-4504-997c-e1701dd01b42"
-					(reference "R13")
+				(path "/9256e78d-9f3e-4512-9ac3-6b8a5a5be46b/f4f31b0a-050a-4bab-a092-e6ead8fce41a"
+					(reference "R51")
 					(unit 1)
 				)
 			)
