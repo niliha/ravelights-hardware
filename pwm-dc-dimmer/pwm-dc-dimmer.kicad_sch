@@ -5442,7 +5442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_FUSE"
 			(at 67.31 106.9974 90)
 			(effects
 				(font

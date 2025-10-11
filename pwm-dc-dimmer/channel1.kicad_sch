@@ -1269,7 +1269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "NCE0140KA"
 			(at 138.43 96.5199 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_LOAD"
 			(at 138.43 76.5174 90)
 			(effects
 				(font
